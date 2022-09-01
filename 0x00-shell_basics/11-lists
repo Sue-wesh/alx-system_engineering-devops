@@ -1,19 +1,2 @@
 #!/bin/bash                                                                                                                                                   
-
-drwxr-xr-x 2 root root 311 Sep  1 13:50 .      drwxr-xr-x 4 root root  60 Sep  1 06:12 ..      -rwxr--r-- 1 root root  66 Sep  1 13:15 0-current_working_direc
-
-tory       -rwxr--r-- 1 root root  17 Sep  1 07:37 10-back      -rwxr--r-- 1 root root   0 Sep  1 13:50 11-lists        -rwxr--r-- 1 root root  61 Sep  1 06:3
-
-2 1-listit       -rwxr--r-- 1 root root  21 Sep  1 06:45 2-bring_me_home      -rwxr--r-- 1 root root 308 Sep  1 06:52 3-listfiles      -rwxr--r-- 1 root root 
-
-479 Sep  1 07:01 4-listmorefiles     -rwxr--r-- 1 root root 551 Sep  1 13:44 5-listfilesdigitonly    -rwxr--r-- 1 root root  42 Sep  1 07:06 6-firstdirectory 
-
-       -rwxr--r-- 1 root root  51 Sep  1 07:09 7-movethatfile        -rwxr--r-- 1 root root  42 Sep  1 07:21 8-firstdelete         -rwxr--r-- 1 root root  42 
-
-Sep  1 07:28 9-firstdirdeletion         -rw-r--r-- 1 root root  35 Sep  1 06:13 README.md,    drwxr-xr-x 4 root root  60 Sep  1 06:12 .      drwxr-xr-x 1 root
-
- root 145 Sep  1 06:08 ..      drwxr-xr-x 2 root root 295 Sep  1 13:44 0x00-shell_basics    drwxr-xr-x 8 root root 220 Sep  1 13:45 .git      -rw-r--r-- 1 roo
-
-t root  40 Sep  1 06:10 README.md,    drwxr-xr-x 2 root root   6 Apr 15  2020 .      drwxr-xr-x 1 root root 145 Sep  1 06:08 ..                               
-
-root@98b8d669b30b:/alx-system_engineering-devops/0x00-shell_basics# ls
+drwxr-xr-x 2 root root 311 Sep  1 13:50 .      drwxr-xr-x 4 root root  60 Sep  1 06:12 ..      -rwxr--r-- 1 root root  66 Sep  1 13:15 0-current_working_directory       -rwxr--r-- 1 root root  17 Sep  1 07:37 10-back      -rwxr--r-- 1 root root   0 Sep  1 13:50 11-lists        -rwxr--r-- 1 root root  61 Sep  1 06:32 1-listit       -rwxr--r-- 1 root root  21 Sep  1 06:45 2-bring_me_home      -rwxr--r-- 1 root root 308 Sep  1 06:52 3-listfiles      -rwxr--r-- 1 root root 479 Sep  1 07:01 4-listmorefiles     -rwxr--r-- 1 root root 551 Sep  1 13:44 5-listfilesdigitonly    -rwxr--r-- 1 root root  42 Sep  1 07:06 6-firstdirectory        -rwxr--r-- 1 root root  51 Sep  1 07:09 7-movethatfile        -rwxr--r-- 1 root root  42 Sep  1 07:21 8-firstdelete         -rwxr--r-- 1 root root  42 Sep  1 07:28 9-firstdirdeletion         -rw-r--r-- 1 root root  35 Sep  1 06:13 README.md,    drwxr-xr-x 4 root root  60 Sep  1 06:12 .      drwxr-xr-x 1 root root 145 Sep  1 06:08 ..      drwxr-xr-x 2 root root 295 Sep  1 13:44 0x00-shell_basics    drwxr-xr-x 8 root root 220 Sep  1 13:45 .git      -rw-r--r-- 1 root root  40 Sep  1 06:10 README.md,    drwxr-xr-x 2 root root   6 Apr 15  2020 .      drwxr-xr-x 1 root root 145 Sep  1 06:08 ..
