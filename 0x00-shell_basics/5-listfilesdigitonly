@@ -1,2 +1,2 @@
 #!/bin/bash
-drwxr-xr-x 2 0 0 295 Sep  1 13:37 .         drwxr-xr-x 4 0 0  60 Sep  1 06:12 ..         -rwxr--r-- 1 0 0  66 Sep  1 13:15 0-current_working_directory        -rwxr--r-- 1 0 0  17 Sep  1 07:37 10-back          -rwxr--r-- 1 0 0  61 Sep  1 06:32 1-listit          -rwxr--r-- 1 0 0  21 Sep  1 06:45 2-bring_me_home         -rwxr--r-- 1 0 0 308 Sep  1 06:52 3-listfiles            -rwxr--r-- 1 0 0 479 Sep  1 07:01 4-listmorefiles       -rwxr--r-- 1 0 0   0 Sep  1 13:37 5-listfilesdigitonly         -rw-r--r-- 1 0 0  35 Sep  1 06:13 README.md
+ls -lan
