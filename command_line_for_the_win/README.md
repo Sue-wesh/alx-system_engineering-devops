@@ -1,0 +1,9 @@
+Command line for the win
+
+CMD CHALLENGE is a pretty cool game challenging you on Bash skills.
+
+0. First 九 tasks
+Complete the first 9 tasks
+
+1. Reach חי completed tasks
+Complete the 9 next tasks, getting to 18 total
