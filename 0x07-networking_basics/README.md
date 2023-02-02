@@ -12,3 +12,13 @@ What network do you use when you browse www.google.com from your smartphone (not
 2. MAC and IP address
 What is a MAC address?
 What is an IP address?
+
+3. UDP and TCP
+TCP
+It is a protocol that is transferring data in a slow way but surely
+UDP
+It is a protocol that is transferring data in a fast way and might loss data along in the process
+TCP checking
+Have you received boxes x, y, z?
+
+
