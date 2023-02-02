@@ -21,4 +21,8 @@ It is a protocol that is transferring data in a fast way and might loss data alo
 TCP checking
 Have you received boxes x, y, z?
 
+4. TCP and UDP ports
+Bash script that displays listening ports:
 
+That only shows listening sockets
+That shows the PID and name of the program to which each socket belongs
