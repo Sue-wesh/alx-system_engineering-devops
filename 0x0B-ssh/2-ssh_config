@@ -1,0 +1,2 @@
+PrivateKey ~/.ssh/school
+PasswordAuthentication No
