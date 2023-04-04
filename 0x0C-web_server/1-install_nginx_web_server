@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# install nginx webserver on web-01 server, it should listen on port 80
+# when querying nginx at its root '/' you should GET request using curl that
+# returns a page containing string 'Hello World!'
+
+apt-get update
+apt-get install -y nginx
+
+mkdir /nginx/html
+touch nginx/html/index.html
+echo "Hello World!" > nginx/html/index.html
+printf %s "server {
+     listen   80 default server;
+     root     /nginx/html;
+     index    index.html;
+}
+" > /nginx/sites-available/default
+
+service nginx restart
