@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
+# Configure your Nginx server so that /redirect_me is redirecting to another page
 
-sed -i '/listen 80;/a rewrite ^/redirect_me pop.tedove.tech/ permanent;' /etc/nginx/sites-available/default
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.pexels.com/video/cg-animation-of-rocket-taking-off-854224/ permanent;' /etc/nginx/sites-available/default
+sudo service nginx restart
