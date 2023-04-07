@@ -5,7 +5,7 @@
 
 sudo apt update
 sudo apt install -y nginx
-sudo chown -R $USER:$USER /var/www/html
+sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 755 /var/www
 sudo touch /var/www/html/index.html
 echo "Hello World!" > /var/www/html/index.html
