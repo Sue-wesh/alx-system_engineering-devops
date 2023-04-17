@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+sudo apt-get update
+sudo apt install ufw
+sudo ufw default deny incoming
+sudo ufw allow proto tcp from any to any port 22, 80, 443
+sudo ufw desable
+sudo ufw enable
