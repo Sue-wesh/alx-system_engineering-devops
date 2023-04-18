@@ -47,4 +47,3 @@ binlog_do_db = tyrell_corp
 
 # setting location of replica's relay log file
 relay-log = /var/log/mysql/mysql-relay-bin.log
-~
