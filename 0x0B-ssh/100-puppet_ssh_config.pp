@@ -11,6 +11,6 @@ file_line { 'passwd auth':
 file_line { 'config private key':
   ensure  => present,
   path    => 'etc/ssh/ssh_config',
-  line    => '   IdentityFile ~/.ssh/school',
+  line    => '    IdentityFile ~/.ssh/school',
   replace => true,
 }
