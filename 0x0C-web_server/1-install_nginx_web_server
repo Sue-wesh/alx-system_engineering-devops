@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Install nginx on your web-01 server
+
+apt-get update
+apt-get install -y nginx
+
+mkdir /nginx/html
+touch nginx/html/index.html
+echo "Hello World!" > nginx/html/index.html
+printf %s "server {
+     listen   80 default server;
+     root     /nginx/html;
+     index    index.html;
+}
+" > /nginx/sites-available/default
+
+sudo service nginx restart
