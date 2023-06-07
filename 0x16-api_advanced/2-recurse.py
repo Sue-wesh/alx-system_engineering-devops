@@ -20,5 +20,6 @@ def recurse(subreddit, hot_list=[]):
         return None
     else:
         json_resp = titles.json()
-        hot_list.append(json_resp.get('data').get('title'))
+        title = json_resp.get('data').get('title')
+        hot_list.append(title)
         return hot_list
