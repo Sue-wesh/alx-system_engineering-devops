@@ -21,7 +21,7 @@ def top_ten(subreddit):
         print(None)
     else:
         json_response = titles.json()
-        ten_titles = json_response.get('data').get('children')
-        for new in ten_titles:
-            title = new.get('data').get('title')
+        title = json_response.get('data').get('children')
+        for new in title:
+            ten_titles = new.get('data').get('title')
             print(ten_titles)
