@@ -6,6 +6,7 @@ import json
 import requests
 import sys
 
+
 def recurse(subreddit, hot_list=[]):
     """
     return a list containing the titles of all hot articles for given subreddit
