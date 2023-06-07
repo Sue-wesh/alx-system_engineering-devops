@@ -6,6 +6,7 @@ import json
 import requests
 import sys
 
+
 def number_of_subscribers(subreddit):
     """
     if in invalid subreddit is given return 0
